@@ -9,6 +9,10 @@ const list = [
         percentage: "100"
     },
     {
+        skill: "JavaScript / TypeScript",
+        percentage: "95"
+    },
+    {
         skill: "Node / Express",
         percentage: "90"
     },

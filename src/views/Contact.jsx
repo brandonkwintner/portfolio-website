@@ -106,6 +106,7 @@ const useStyles = makeStyles(theme => ({
         color: '#22313F',
         fontFamily: "'Poppins', sans-serif",
         textDecoration: 'none',
+        fontWeight: 900
     },
     icon: {
         color: '#ff0080',

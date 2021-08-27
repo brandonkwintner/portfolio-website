@@ -23,9 +23,6 @@ const Landing = () => {
                     <div className={classes.root}>
                         <WelcomeText />
                     </div>
-                    <div className={classes.bottomContainer}>
-                        <PageScrollButton section="About" />
-                    </div>
                 </Grid>
             </PageWrapper>
         </>
@@ -33,14 +30,9 @@ const Landing = () => {
 }
 
 const useStyles = makeStyles(theme => ({
-    bottomContainer: {
-        marginTop: '-60px',
-        verticalAlign: "bottom",
-        textAlign: "center"
-    },
     container: {
         verticalAlign: "middle",
-        textAlign: "left"
+        textAlign: "left",
     },
     root: {
         display: "table-cell",
