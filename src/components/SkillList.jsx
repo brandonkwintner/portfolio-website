@@ -10,23 +10,23 @@ const list = [
     },
     {
         skill: "JavaScript / TypeScript",
-        percentage: "95"
+        percentage: "100"
     },
     {
-        skill: "Node / Express",
-        percentage: "90"
+        skill: "Java",
+        percentage: "95"
     },
     {
         skill: "UI / UX Design",
         percentage: "90"
     },
     {
-        skill: "Java",
+        skill: "Node / Express",
         percentage: "90"
     },
     {
         skill: "Python",
-        percentage: "85"
+        percentage: "80"
     },
     {
         skill: "NoSQL / SQL",

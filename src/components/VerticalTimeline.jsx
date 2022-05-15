@@ -28,11 +28,13 @@ const VerticalTimeline = () => {
                 dateClassName={classes.font}
                 icon={<Work />}
             >
-                <h3 className={classNames("vertical-timeline-element-title", classes.font)}>Associate Consultant</h3>
+                <h3 className={classNames("vertical-timeline-element-title", classes.font)}>Software Engineer Consultant</h3>
                 <h4 className={classNames("vertical-timeline-element-subtitle", classes.font)}>Capco</h4>
                 <p className={classes.font}>
-                    Responsible for helping clients transform their applications with a modern technology stack and 
-                    agile methodologies.
+                    Front End Developer on the Tech4Ops Corporate Bank Automation as a Service project at Deutsche Bank. Building
+                    micro-frontend React applications to help assist business users in automation of validating workflow items. I 
+                    implemented a central location for work items to be viewed with Ag-grid and have reduced the time users are spending
+                    validating anti-financial crime items by 200%. These projects were built with React, TypeScript, Bootstrap, and Webpack.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

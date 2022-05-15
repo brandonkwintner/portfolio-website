@@ -7,6 +7,7 @@ import {
 import { ArrowRightAlt } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/core/styles';
 import classnames from 'classnames';
+import Break from './Break';
 
 const WelcomeText = () => {
     const classes = useStyles();
@@ -16,7 +17,7 @@ const WelcomeText = () => {
             <Typography className={classnames(classes.text, classes.main)}>
                 Hi, I'm Brandon
             </Typography>
-            <hr/>
+            <Break />
             <Typography className={classnames(classes.sub, classes.text)}>
                 Full-stack developer with a passion for building elegant and modern web applications.
             </Typography>

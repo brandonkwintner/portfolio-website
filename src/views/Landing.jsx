@@ -4,7 +4,6 @@ import { Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core';
 import PageWrapper from '../components/PageWrapper';
 import WelcomeText from '../components/WelcomeText';
-import PageScrollButton from '../components/PageScrollButton';
 
 const Landing = () => {
     const classes = useStyles();
