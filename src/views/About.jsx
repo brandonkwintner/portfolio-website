@@ -50,7 +50,7 @@ const About = () => {
                     </Typography>
                     <br/>
                     <Typography className={classes.sub}>
-                        <i className={classNames(classes.icon, "fas fa-code")} /> Build RESTful APIs following a modern microservice architecture.
+                        <i className={classNames(classes.icon, "fas fa-code")} /> Follow modern architectures such as monorepos and micro front end module federations.
                     </Typography>
                 </Grid>
             </PageWrapper>

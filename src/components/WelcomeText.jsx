@@ -19,7 +19,7 @@ const WelcomeText = () => {
             </Typography>
             <Break />
             <Typography className={classnames(classes.sub, classes.text)}>
-                Full-stack developer with a passion for building elegant and modern web applications.
+                Front end developer with a passion for building elegant and modern React applications.
             </Typography>
             <br/>
             <Link

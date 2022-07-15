@@ -24,7 +24,19 @@ const VerticalTimeline = () => {
                 contentStyle={{ background: '#22313F', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #22313F' }}
                 iconStyle={{ background: '#ff0080', color: '#fff' }}
-                date="August 2021 - Present"
+                date="May 2022 - Present"
+                dateClassName={classes.font}
+                icon={<Work />}
+            >
+                <h3 className={classNames("vertical-timeline-element-title", classes.font)}>Front End Engineer</h3>
+                <h4 className={classNames("vertical-timeline-element-subtitle", classes.font)}>Goldman Sachs</h4>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: '#22313F', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  #22313F' }}
+                iconStyle={{ background: '#ff0080', color: '#fff' }}
+                date="August 2021 - May 2022"
                 dateClassName={classes.font}
                 icon={<Work />}
             >
